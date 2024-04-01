@@ -200,14 +200,14 @@ const Verify = () => {
                           )
                         }
                       />
-                      <div class="form-grp">
+                      {/* <div class="form-grp">
                         <input
                           type="text"
                           disabled
                           placeholder="@itsat Coin"
                         />
                       </div>
-                    </div>
+                    </div>*/}
                     <div class="col-md-6">
                       <HiOutlineClipboardDocument
                         className="new-cursour"
@@ -231,14 +231,14 @@ const Verify = () => {
                       className="new-cursour"
                       onClick={(e) =>
                         navigator.clipboard.writeText(
-                          "🚀 Join the revolution! Introducing @itsat, the future of decentralized finance and social impact. 💡 With every transaction, you're not just investing in a token, you're investing in positive change. 🌍 Let's empower communities, support sustainability, and drive meaningful impact together. Don't miss out on this opportunity to be part of something bigger than yourself. Invest in [Token Name] today and make a difference while earning rewards! #@itsat #crypto #daulathussain #dapp 🌟🔗"
+                          "🚀 Join the revolution! Introducing @itsat, the future of decentralized finance and social impact. 💡 With every transaction, you're not just investing in a token, you're investing in positive change. 🌍 Let's empower communities, support sustainability, and drive meaningful impact together. Don't miss out on this opportunity to be part of something bigger than yourself. Invest in Iphone Token today and make a difference while earning rewards! #@itsat #crypto #daulathussain #dapp 🌟🔗"
                         )
                       }
                     />
                     <textarea
                       name="message"
                       disabled
-                      placeholder="🚀 Join the revolution! Introducing @itsat, the future of decentralized finance and social impact. 💡 With every transaction, you're not just investing in a token, you're investing in positive change. 🌍 Let's empower communities, support sustainability, and drive meaningful impact together. Don't miss out on this opportunity to be part of something bigger than yourself. Invest in [Token Name] today and make a difference while earning rewards! #@itsat #crypto #daulathussain #dapp 🌟🔗"
+                      placeholder="🚀 Join the revolution! Introducing @itsat, the future of decentralized finance and social impact. 💡 With every transaction, you're not just investing in a token, you're investing in positive change. 🌍 Let's empower communities, support sustainability, and drive meaningful impact together. Don't miss out on this opportunity to be part of something bigger than yourself. Invest in Iphone Token today and make a difference while earning rewards! #@itsat #crypto #daulathussain #dapp 🌟🔗"
                     ></textarea>
                   </div>
                   <button onClick={() => handleImage()} class="btn">

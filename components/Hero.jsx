@@ -12,7 +12,7 @@ const Hero = () => {
             <div class="banner-content text-center">
               <h2 class="title">
                XECO Pre-Sale and Airdrop <br />
-                <span>for XECO Iphone Token is Live</span>
+                <span>for XECO $Iphone is Live</span>
               </h2>
               <p>
                 A new smart block chain based marketplace for trading digital

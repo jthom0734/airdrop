@@ -10,11 +10,11 @@ import iphone from "./iphone.json";
 
 //AIRDROP
 // export const airdrop_ADDRESS = "0xE8aEd434A01eccc1c575d7cC383EAFE226521D54";
-export const airdrop_ADDRESS = "0xA493FC1c7bE229Da483D80dD447c6B6647535552";
+export const airdrop_ADDRESS = "0xEFEe5Cc770501f11BD08aa25F5673dd12b519341";
 const airdrop_ABI = airdrop.abi;
 
 //IPHONE
-export const iphone_ADDRESS = "0x70211C060c2E03Bda94C73d0e55d3DE1F6aBE311";
+export const iphone_ADDRESS = "0x4C47f0b663e6b74c9154885F45B9e23637823EDB";
 
 const iphone_ABI = iphone.abi;
 

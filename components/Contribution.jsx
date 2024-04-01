@@ -29,7 +29,7 @@ const Contribution = () => {
                 <div class="progress-bar" style={{ width: "83%" }}></div>
               </div>
               <h6 class="progress-title">
-                65 target raised <span>1 ETH = $1000 = 3177.38 IPHONE</span>
+                65 target raised <span>1 ETH = $3,434.54 = 10912.84 IPHONE</span>
               </h6>
             </div>
             <div class="contribution-btn">

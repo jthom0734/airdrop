@@ -9,13 +9,7 @@ const Feature = () => {
     },
     {
       title: "Lifetime Free Transaction",
-      description: "Experience the freedom of lifetime free transactions with our innovative platform. Say goodbye to transaction fees forever as you enjoy seamless financial interactions without any hidden costs. Our commitment to providing a transparent and user-centric experience ensures that you can manage your finances effortlessly, without worrying about additional charges. Join us and unlock a lifetime of convenient, fee-free transactions, empowering you to make the most of your financial journey."
-
-
-
-
-
-",
+      description: "Experience the freedom of lifetime free transactions with our innovative platform. Say goodbye to transaction fees forever as you enjoy seamless financial interactions without any hidden costs. Our commitment to providing a transparent and user-centric experience ensures that you can manage your finances effortlessly, without worrying about additional charges. Join us and unlock a lifetime of convenient, fee-free transactions, empowering you to make the most of your financial journey.",
       image: "features_img02.png",
     },
     {

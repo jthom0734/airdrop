@@ -118,31 +118,6 @@ Handle Responses: Once you receive responses from the API, parse the data and ha
 Implement Error Handling: Implement error handling to deal with potential issues such as network errors, API rate limits, and incorrect responses.
 
 Test Your Integration: Test your API integration thoroughly to ensure it works as expected under various conditions.
-
-Here's a basic example of connecting to an API using JavaScript:
-
-javascript
-Copy code
-// Example using Fetch API in JavaScript
-fetch('https://api.example.com/data', {
-  method: 'GET',
-  headers: {
-    'Authorization': 'Bearer YOUR_API_TOKEN',
-    'Content-Type': 'application/json'
-  }
-})
-.then(response => response.json())
-.then(data => {
-  // Handle the API response data
-  console.log(data);
-})
-.catch(error => {
-  // Handle errors
-  console.error('Error:', error);
-});
-Remember to replace 'https://api.example.com/data' with the actual API endpoint and 'YOUR_API_TOKEN' with your API token.
-
-Please provide more specific details about the API you want to connect to and your current website's technology stack for more tailored guidance.
                         </p>
                       </div>
                     </div>
@@ -214,7 +189,7 @@ It's important for customers to double-check the transaction details, including 
                     >
                       <div class="accordion-body">
                         <p>
-                          To make XECO coin better, you would need to focus on enhancing various aspects of its functionality, utility, and attractiveness to users and investors. Here are some potential areas you could consider improving:
+                          To make XECO IPHONE better, you would need to focus on enhancing various aspects of its functionality, utility, and attractiveness to users and investors. Here are some potential areas you could consider improving:
 
 Technology and Innovation: Continuously innovate and improve the underlying technology of XECO coin. This could involve implementing new features, enhancing scalability, improving security, or integrating with emerging technologies like blockchain interoperability or privacy enhancements.
 

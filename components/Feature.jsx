@@ -4,22 +4,28 @@ const Feature = () => {
   const features = [
     {
       title: "Mobile Payment Make Easy",
-      description: "Add new, trending and rare artwork to your collection.",
+      description: "Our platform simplifies mobile payments, providing a hassle-free experience for users. With a user-friendly interface and robust security features, managing transactions on-the-go has never been easier. Say goodbye to long queues and complicated checkout processes - join us and experience the future of convenient, secure mobile payments.",
       image: "features_img01.png",
     },
     {
       title: "Lifetime Free Transaction",
-      description: "Add new, trending and rare artwork to your collection.",
+      description: "Experience the freedom of lifetime free transactions with our innovative platform. Say goodbye to transaction fees forever as you enjoy seamless financial interactions without any hidden costs. Our commitment to providing a transparent and user-centric experience ensures that you can manage your finances effortlessly, without worrying about additional charges. Join us and unlock a lifetime of convenient, fee-free transactions, empowering you to make the most of your financial journey.
+
+
+
+
+
+",
       image: "features_img02.png",
     },
     {
-      title: "Protect the <br /> Identity",
-      description: "Add new, trending and rare artwork to your collection.",
+      title: "Protect Your Identity",
+      description: "Shield your identity with our cutting-edge protection solutions. We prioritize your privacy by employing advanced security measures, ensuring your personal information remains secure. Join us to safeguard your digital identity confidently.",
       image: "features_img03.png",
     },
     {
       title: "Security & Control Over Money",
-      description: "Add new, trending and rare artwork to your collection.",
+      description: "Gain peace of mind with our platform's top-notch security and financial control. Our user-friendly interface ensures effortless money management, empowering you to make transactions confidently. Join us to take charge of your finances securely.",
       image: "features_img04.png",
     },
   ];

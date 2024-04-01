@@ -11,13 +11,13 @@ const Hero = () => {
           <div class="col-lg-10">
             <div class="banner-content text-center">
               <h2 class="title">
-               XECO Pre-Sale and Airdrop <br />
-                <span>for XECO $Iphone is Live</span>
+               XECO Pre-Sale and Airdrop for<br />
+                <span> XECO $Iphone is Live</span>
               </h2>
               <p>
-                A new smart block chain based marketplace for trading digital
+                Pre-sales contract address : 0x52046D05A8C21517553EE8bB65F1763B5c704Cf4
                 <br />
-                goods & assets according.
+                Complete a transaction using the provided address."
               </p>
             </div>
           </div>

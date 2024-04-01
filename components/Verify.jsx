@@ -200,14 +200,14 @@ const Verify = () => {
                           )
                         }
                       />
-                      {/* <div class="form-grp">
+                      <div class="form-grp">
                         <input
                           type="text"
                           disabled
                           placeholder="@itsat Coin"
                         />
                       </div>
-                    </div>*/}
+                    </div>
                     <div class="col-md-6">
                       <HiOutlineClipboardDocument
                         className="new-cursour"
@@ -256,10 +256,7 @@ const Verify = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
-};
-<!--Start of Tawk.to Script-->
+    </section><!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -272,4 +269,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+  );
+};
+
 export default Verify;

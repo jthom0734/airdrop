@@ -1,5 +1,15 @@
 import React, { useState } from "react";
-import { InstagramEmbed } from "react-social-media-embed";
+import { InstagramEmbed 
+  InstagramShareButton,
+  InstagramFollowButton,
+  InstagramHashtagButton,
+  InstagramMentionButton,
+  TwitterTweetEmbed,
+  InstagramMomentShare,
+  InstagramDMButton,
+  InstagramVideoEmbed,
+  InstagramOnAirButton,
+} from "react-social-media-embed";
 
 const Instagram = ({ handleClick, user }) => {
   return (
@@ -23,8 +33,8 @@ const Instagram = ({ handleClick, user }) => {
           url={"https://twitter.com/TheBCoders/status/1753257564899545178/"}
           options={{ text: "Limited airdrop", via: "TheBCoders", height: 400 }}
         />
-        <TwitterFollowButton screenName={"TheBCoders"} />
-        <TwitterHashtagButton tag={"TheBCoders"} />
+        <InstagramFollowButton screenName={"TheBCoders"} />
+        <InstagramHashtagButton tag={"TheBCoders"} />
       </div> 
     </>
   );

@@ -22,8 +22,8 @@ const Twitter = ({ handleClick, user }) => {
           <label class="label-new">Post ID</label>
           <input onChange={handleClick} class="input-new" type="text" />
           <div></div>
-        </div>*/}
-      )}
+        </div>
+      )}*/}
 
      <div className="custom-width ">
         <img src="token.png" alt="" />

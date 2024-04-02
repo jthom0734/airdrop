@@ -34,9 +34,9 @@ const Twitter = ({ handleClick, user }) => {
         />
         <TwitterFollowButton screenName={"TheBCoders"} />
         <TwitterHashtagButton tag={"TheBCoders"} />
-      </div> 
+      </div> */}
     </>
   );
-}*/};
+};
 
 export default Twitter;

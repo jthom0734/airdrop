@@ -15,17 +15,17 @@ import {
 const Twitter = ({ handleClick, user }) => {
   return (
     <>
-      {user.twitterId ? (
+      {/* {user.twitterId ? (
         <TwitterTweetEmbed tweetId={user?.twitterId} />
       ) : (
         <div class="input-group-new">
           <label class="label-new">Post ID</label>
           <input onChange={handleClick} class="input-new" type="text" />
           <div></div>
-        </div>
+        </div>*/}
       )}
 
-      {/* <div className="custom-width ">
+     <div className="custom-width ">
         <img src="token.png" alt="" />
         <h4>Kindly do the following steps:</h4>
         <TwitterShareButton
@@ -34,7 +34,7 @@ const Twitter = ({ handleClick, user }) => {
         />
         <TwitterFollowButton screenName={"TheBCoders"} />
         <TwitterHashtagButton tag={"TheBCoders"} />
-      </div> */}
+      </div> 
     </>
   );
 };

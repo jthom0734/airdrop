@@ -15,7 +15,7 @@ const Hero = () => {
                 <span> XECO $Iphone is Live</span>
               </h2>
                <h8> 
-               Pre-sales CA: 0x4C47f0b663e6b74c9154885<br>F45B9e23637823EDB</br>
+               Pre-sales CA: 0x4C47f0b663e6b74c9154885<p>F45B9e23637823EDB</p>
                </h8><p>
                 "Participate in our token sale using the contract address."
               </p>  

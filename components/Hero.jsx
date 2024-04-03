@@ -14,11 +14,11 @@ const Hero = () => {
                XECO Pre-Sale and Airdrop for<br />
                 <span> XECO $Iphone is Live</span>
               </h2>
-              <p>
-                <span>Pre-sales CA: 0x52046D05A8C21517553EE8bB65F1763B5c704Cf4</span>
-                <br />
+               <h7 class="title"> <p>
+               Pre-sales CA: 0x4C47f0b663e6b74c9154885F45B9e23637823EDB
+               
                 "Participate in our token sale using the contract address."
-              </p>
+              </p>  </h7>
             </div>
           </div>
         </div>

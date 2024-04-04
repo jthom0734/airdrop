@@ -16,7 +16,7 @@ import { CONTEXT } from "../context/index";
 const Verify = () => {
   const handleImage = () => {
     let url = `airdrop.png`;
-    saveAs(url, `@itsat`);
+    saveAs(url, `@theblockchaincoders`);
   };
 
   const { claimAirdrop, notifyError, address, connect, loader, claimStatus } =
@@ -52,7 +52,7 @@ const Verify = () => {
       <div class="container">
         <div class="contact-info-wrap">
           <div class="row justify-content-center">
-             <div class="col-xl-3 col-lg-4 col-md-6">
+            {/* <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="contact-info-item">
                 <div class="icon">
                   <i class="fas ">
@@ -67,8 +67,8 @@ const Verify = () => {
                   />
                 </div>
               </div>
-            </div>
-            {/*<div class="col-xl-3 col-lg-4 col-md-6">
+            </div>*/}
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="contact-info-item">
                 <div class="icon">
                   <i class="fas ">
@@ -85,8 +85,8 @@ const Verify = () => {
                   />
                 </div>
               </div>
-            </div>*/}
-             <div class="col-xl-3 col-lg-4 col-md-6">
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="contact-info-item">
                 <div class="icon">
                   <i class="fas ">
@@ -104,7 +104,6 @@ const Verify = () => {
                   />
                 </div>
               </div>
-            </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="contact-info-item">
@@ -159,19 +158,19 @@ const Verify = () => {
                       <HiOutlineClipboardDocument
                         className="new-cursour"
                         onClick={(e) =>
-                          navigator.clipboard.writeText("Twitter @Itsat")
+                          navigator.clipboard.writeText("Twitter @TheBCoders")
                         }
                       />
                       <div
                         class="form-grp"
                         onClick={(e) =>
-                          navigator.clipboard.writeText("Twitter @Itsat")
+                          navigator.clipboard.writeText("Twitter @TheBCoders")
                         }
                       >
                         <input
                           type="text"
                           disabled
-                          placeholder="Twitter @Itsat"
+                          placeholder="Twitter @TheBCoders"
                         />
                       </div>
                     </div>
@@ -180,7 +179,7 @@ const Verify = () => {
                         className="new-cursour"
                         onClick={(e) =>
                           navigator.clipboard.writeText(
-                            "Instgram: @Itsat"
+                            "Instgram: @daulathussain92"
                           )
                         }
                       />
@@ -188,7 +187,7 @@ const Verify = () => {
                         <input
                           type="text"
                           disabled
-                          placeholder="Instgram: @Itsat"
+                          placeholder="Instgram: @daulathussain92"
                         />
                       </div>
                     </div>
@@ -197,7 +196,7 @@ const Verify = () => {
                         className="new-cursour"
                         onClick={(e) =>
                           navigator.clipboard.writeText(
-                            "@itsat Coin"
+                            "@theblockchaincoders Coin"
                           )
                         }
                       />
@@ -205,7 +204,7 @@ const Verify = () => {
                         <input
                           type="text"
                           disabled
-                          placeholder="@itsat Coin"
+                          placeholder="@theblockchaincoders Coin"
                         />
                       </div>
                     </div>
@@ -214,7 +213,7 @@ const Verify = () => {
                         className="new-cursour"
                         onClick={(e) =>
                           navigator.clipboard.writeText(
-                            "Website: https://www.itsat.site/"
+                            "Website: https://www.theblockchaincoders.com/"
                           )
                         }
                       />
@@ -222,7 +221,7 @@ const Verify = () => {
                         <input
                           type="text"
                           disabled
-                          placeholder="Website: https://www.itsat.site/"
+                          placeholder="Website: https://www.theblockchaincoders.com/"
                         />
                       </div>
                     </div>
@@ -232,14 +231,14 @@ const Verify = () => {
                       className="new-cursour"
                       onClick={(e) =>
                         navigator.clipboard.writeText(
-                          "🚀 Join the revolution! Introducing @itsat, the future of decentralized finance and social impact. 💡 With every transaction, you're not just investing in a token, you're investing in positive change. 🌍 Let's empower communities, support sustainability, and drive meaningful impact together. Don't miss out on this opportunity to be part of something bigger than yourself. Invest in Iphone Token today and make a difference while earning rewards! #@itsat #crypto #daulathussain #dapp 🌟🔗"
+                          "🚀 Join the revolution! Introducing @theblockchaincoders, the future of decentralized finance and social impact. 💡 With every transaction, you're not just investing in a token, you're investing in positive change. 🌍 Let's empower communities, support sustainability, and drive meaningful impact together. Don't miss out on this opportunity to be part of something bigger than yourself. Invest in [Token Name] today and make a difference while earning rewards! #@theblockchaincoders #crypto #daulathussain #dapp 🌟🔗"
                         )
                       }
                     />
                     <textarea
                       name="message"
                       disabled
-                      placeholder="🚀 Join the revolution! Introducing @itsat, the future of decentralized finance and social impact. 💡 With every transaction, you're not just investing in a token, you're investing in positive change. 🌍 Let's empower communities, support sustainability, and drive meaningful impact together. Don't miss out on this opportunity to be part of something bigger than yourself. Invest in Iphone Token today and make a difference while earning rewards! #@itsat #crypto #daulathussain #dapp 🌟🔗"
+                      placeholder="🚀 Join the revolution! Introducing @theblockchaincoders, the future of decentralized finance and social impact. 💡 With every transaction, you're not just investing in a token, you're investing in positive change. 🌍 Let's empower communities, support sustainability, and drive meaningful impact together. Don't miss out on this opportunity to be part of something bigger than yourself. Invest in [Token Name] today and make a difference while earning rewards! #@theblockchaincoders #crypto #daulathussain #dapp 🌟🔗"
                     ></textarea>
                   </div>
                   <button onClick={() => handleImage()} class="btn">

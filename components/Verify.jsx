@@ -86,7 +86,7 @@ const Verify = () => {
                 </div>
               </div>
             </div>*/}
-            <div class="col-xl-3 col-lg-4 col-md-6">
+           {/* <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="contact-info-item">
                 <div class="icon">
                   <i class="fas ">
@@ -104,7 +104,7 @@ const Verify = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div>*/}
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="contact-info-item">
                 <div class="icon">
